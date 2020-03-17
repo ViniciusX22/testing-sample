@@ -486,25 +486,25 @@
 	],
 	"variable": [
 		{
-			"id": "5fe007b7-a5e1-415e-b598-a3594e435dcf",
+			"id": "6312b343-6840-4b8a-bb1f-76c0beffc1d6",
 			"key": "username",
 			"value": "viniciusxavier25",
 			"type": "string"
 		},
 		{
-			"id": "50b76693-a150-409e-80c1-01a842b9c84b",
+			"id": "67c4cec2-c813-4bb8-afb5-518c00e81d7e",
 			"key": "trelloAPIURL",
 			"value": "https://api.trello.com",
 			"type": "string"
 		},
 		{
-			"id": "8f53aefa-77f1-4841-93e8-0f5d20d6f48e",
+			"id": "184a5545-8c88-47b0-b2b8-800855cfbd35",
 			"key": "trelloKey",
 			"value": "086bb46870359ef3dffe83691d1dff59",
 			"type": "string"
 		},
 		{
-			"id": "7e93deec-2090-4612-bafd-8fe6210168fa",
+			"id": "f005b088-5e82-4a22-927b-07d7b31c0d9a",
 			"key": "trelloToken",
 			"value": "031e52e8f09f79107f820bb0d15abba64ca250e0005dc3de38ac755a22423443",
 			"type": "string"
