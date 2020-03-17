@@ -11,9 +11,8 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - uses: actions/setup-node@v1
-        with:
-          node-version: "8.11.4"
-      - uses: matt-ball/newman-action@0.0.28
+      - run: npm install
+      - uses: matt-ball/newman-action@master
         with:
           collection: ./tests/PostmanTrelloCollections.json
           environment: ./tests/TrelloEnv.json
