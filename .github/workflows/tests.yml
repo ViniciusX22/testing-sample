@@ -10,10 +10,12 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: 10.x
+        node-version: [10.x]
     steps:
       - uses: actions/checkout@master
       - uses: actions/setup-node@v1
+        with:
+          node-version: "10.x"
       - uses: matt-ball/newman-action@master
         with:
           collection: ./tests/PostmanTrelloCollections.json
