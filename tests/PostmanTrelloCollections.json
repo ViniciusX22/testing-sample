@@ -1,7 +1,7 @@
 {
 	"info": {
 		"_postman_id": "1c7e6d29-7884-41df-ba91-7b6780238191",
-		"name": "API Testing",
+		"name": "Postman & Trello",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
@@ -486,25 +486,25 @@
 	],
 	"variable": [
 		{
-			"id": "cdb3db52-f3cb-43d5-a672-1e030f7ef9f4",
+			"id": "5fe007b7-a5e1-415e-b598-a3594e435dcf",
 			"key": "username",
 			"value": "viniciusxavier25",
 			"type": "string"
 		},
 		{
-			"id": "0d99f498-badb-4801-a616-594df709c0d0",
+			"id": "50b76693-a150-409e-80c1-01a842b9c84b",
 			"key": "trelloAPIURL",
 			"value": "https://api.trello.com",
 			"type": "string"
 		},
 		{
-			"id": "4c983181-08c5-4b77-b891-4799e6c8ca5b",
+			"id": "8f53aefa-77f1-4841-93e8-0f5d20d6f48e",
 			"key": "trelloKey",
 			"value": "086bb46870359ef3dffe83691d1dff59",
 			"type": "string"
 		},
 		{
-			"id": "917d2ea4-2a8e-4ba5-a80c-648b2a951eb2",
+			"id": "7e93deec-2090-4612-bafd-8fe6210168fa",
 			"key": "trelloToken",
 			"value": "031e52e8f09f79107f820bb0d15abba64ca250e0005dc3de38ac755a22423443",
 			"type": "string"
