@@ -15,8 +15,6 @@ jobs:
       - uses: actions/checkout@master
       - uses: actions/setup-node@v1
         with:
-          node-version: "10.x"
-      - uses: matt-ball/newman-action@master
-        with:
-          collection: ./tests/PostmanTrelloCollections.json
-          environment: ./tests/TrelloEnv.json
+          node-version: "10.15.3"
+      - run: npm install
+      - run: npm test
