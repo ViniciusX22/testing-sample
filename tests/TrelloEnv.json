@@ -1,0 +1,24 @@
+{
+	"id": "a3c1f6f3-6d69-4744-b411-a92ede63775e",
+	"name": "Postman & Trello",
+	"values": [
+		{
+			"key": "TODOListId",
+			"value": "",
+			"enabled": true
+		},
+		{
+			"key": "DONEListId",
+			"value": "",
+			"enabled": true
+		},
+		{
+			"key": "ThatsABugCardId",
+			"value": "",
+			"enabled": true
+		}
+	],
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2020-03-16T23:57:32.756Z",
+	"_postman_exported_using": "Postman/7.20.1"
+}
