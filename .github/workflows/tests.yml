@@ -16,7 +16,5 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: "10.x"
-      - uses: matt-ball/newman-action@master
-        with:
-          collection: ./tests/PostmanTrelloCollections.json
-          environment: ./tests/TrelloEnv.json
+      - run: npm install newman
+      - run: newman -c ./tests/PostmanTrelloCollections.json -e ./tests/TrelloEnv.json
