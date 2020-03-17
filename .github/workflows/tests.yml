@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
-      - uses: matt-ball/newman-action@master
+      - uses: matt-ball/newman-action@0.0.28
         with:
           collection: ./tests/PostmanTrelloCollections.json
           environment: ./tests/TrelloEnv.json
