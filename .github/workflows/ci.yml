@@ -10,12 +10,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
-      - run: npm install
-      - run: npm run build
-  test:
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@master
-      - run: npm run test:unit
-      - run: npm run test:e2e
+      - name: Install dependencies
+        run: npm install
+      - name: Build
+        run: npm run build
+      - name: Unit tests
+        run: npm run test:unit
+      - name: E2E tests
+        run: npm run test:e2e
