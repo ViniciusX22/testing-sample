@@ -12,9 +12,7 @@ jobs:
       - uses: actions/checkout@master
       - name: Install dependencies
         run: npm install
-      - name: Build
-        run: npm run build
       - name: Unit tests
         run: npm run test:unit
       - name: E2E tests
-        run: npm run test:e2e
+        run: cypress-io/github-action@v1
