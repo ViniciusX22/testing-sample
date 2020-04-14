@@ -1,3 +1,3 @@
-# Trello & Postman
+# Web Testing
 
-API Testing with Trello API, Postman and CircleCI
+Web Testing integrating Postman, Cypress, Jest and Github Actions
