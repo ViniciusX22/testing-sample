@@ -1,5 +1,5 @@
 <template>
-  <div class="post">
+  <div class="post" data-testid="post">
     <h1 class="post-title" data-testid="title">{{ value.title }}</h1>
     <p class="post-body" data-testid="body">{{ value.body }}</p>
     <div class="actions" v-if="!editing">
