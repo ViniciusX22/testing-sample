@@ -15,4 +15,7 @@ jobs:
       - name: Unit tests
         run: npm run test:unit
       - name: E2E tests
-        run: npm run test:e2e
+        uses: cypress-io/github-action@v1
+        with:
+          start: npm run serve -- --mode production
+          wait-on: http://localhost:8080
