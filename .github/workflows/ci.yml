@@ -17,5 +17,6 @@ jobs:
       - name: E2E tests
         uses: cypress-io/github-action@v1
         with:
-          start: npm run serve -- --mode production
+          build: npm run serve -- --mode production
           wait-on: http://localhost:8080
+          browser: chrome
